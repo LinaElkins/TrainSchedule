@@ -11,6 +11,8 @@ var config = {
 console.log("initialize firebase");
 
 // create on click function for submitted new train
+var trainData =firebase.database();
+
 $("#addNewTrain").on("click", function(e){
     e.preventDefault();
 
